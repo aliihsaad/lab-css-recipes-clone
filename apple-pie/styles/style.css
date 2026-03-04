@@ -22,3 +22,75 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#hero {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 900px;
+  margin: 0 auto;
+  height: 620px;
+  text-align: center;
+  padding-top: 260px;
+}
+
+#hero h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 300;
+}
+
+#recipe-content {                                                                                                                                             
+  width: 900px;                                                                                                                                               
+  margin: 0 auto;                                                                                                                                             
+  padding: 50px 0;                                                                                                                                            
+  color: #555;                                                                                                                                                
+  line-height: 1.6;                                                                                                                                           
+  font-size: 20px;                                                                                                                                            
+}                                                                                                                                                             
+                                                                                                                                                                
+#description,                                                                                                                                                 
+#ingredients,                                                                                                                                                 
+#directions {                                                                                                                                                 
+  margin: 0 40px;                                                                                                                                             
+}                                                                                                                                                             
+                                                                                                                                                                
+#recipe-info,                                                                                                                                                 
+#cooking-info {                                                                                                                                               
+  text-align: center;                                                                                                                                         
+  margin: 30px 0;                                                                                                                                             
+}                                                                                                                                                             
+                                                                                                                                                                
+#ingredients,                                                                                                                                                 
+#directions {                                                                                                                                                 
+  border-top: 1px solid #d3d3d3;                                                                                                                              
+  padding-top: 30px;                                                                                                                                          
+  margin-top: 20px;                                                                                                                                           
+}                                                                                                                                                             
+                                                                                                                                                                
+#ingredients h2,                                                                                                                                              
+#directions h2 {                                                                                                                                              
+  font-size: 30px;                                                                                                                                            
+  margin-bottom: 20px;                                                                                                                                        
+}                                                                                                                                                             
+                                                                                                                                                                
+#ingredients ul,                                                                                                                                              
+#directions ol {                                                                                                                                              
+  margin-left: 30px;                                                                                                                                          
+}                                                                                                                                                             
+                                                                                                                                                                
+#ingredients li,                                                                                                                                              
+#directions li {                                                                                                                                              
+  margin-bottom: 8px;                                                                                                                                         
+} 
+
+/* NOTES
+  - #recipe-content: Creates a centered 900px content column, adds vertical spacing,
+    and sets base text color/size/line spacing for readability.
+  - #description, #ingredients, #directions: Adds left/right inner spacing.
+  - #recipe-info, #cooking-info: Centers the section images and adds vertical space.
+  - #ingredients, #directions: Adds top separators and spacing before section content.
+  - #ingredients h2, #directions h2: Makes section titles larger with bottom spacing.
+  - #ingredients ul, #directions ol: Indents list markers and list text.
+  - #ingredients li, #directions li: Adds spacing between list items.
+*/
