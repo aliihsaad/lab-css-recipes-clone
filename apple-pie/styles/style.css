@@ -28,11 +28,12 @@ body {
   filter: brightness(100%);
   background-size: cover;
   background-position: center;
-  width: 900px;
-  margin: 0 auto;
-  height: 620px;
-  text-align: center;
-  padding-top: 260px;
+  width: 100%;
+  margin: 0;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero h1 {
